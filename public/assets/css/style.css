@@ -1304,3 +1304,13 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.about-img{
+  border: #14806c;
+  border-radius: 30px;
+  position: relative;
+  background-size: cover;
+}
+.icon-box ul{
+  list-style:disc;
+}
