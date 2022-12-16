@@ -10,5 +10,7 @@ router.post('/contact', homeController.contact);
 router.get('/portfolio', homeController.portfolio);
 router.get('/services', homeController.services);
 router.get('/team', homeController.team);
+router.get('/webhook', homeController.webhook_get);
+router.get('/messaging-webhook', homeController.messaging_webhook_get);
 
 module.exports = router;
