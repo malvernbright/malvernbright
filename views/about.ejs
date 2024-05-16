@@ -1,60 +1,90 @@
 <%- include ('./includes/header'); %>
-<main id="main">
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Waal! I can't believe you took your time to know me.</p>
-      </div>
-      <div class="row">
-        <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-          <img src="/assets/img/malve.jpg" class="img-fluid about-img" height="" width="" alt="Malvern" />
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>About</h2>
+          <p>Waal! I can't believe you took your time to know me.</p>
         </div>
-        <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-          <h3 data-aos="fade-up">Okay then!</h3>
-          <p data-aos="fade-up">
-            My real name is Malvern Bright Gondo, but they call me The LazyCoder(though I'm not Lazy 😂).
-            I wanted to be a cop 😎 (whoa), and then boom 💥, one day when I was chasing a rat 🐀 (practicing for the career I wanted 😂),
-            I slipped and fell on an old computer, I raised it from the dead.
-            After that, all I still remember is, I found myself writing some <code>code</code> until today.</p>
-          <div class="icon-box" data-aos="fade-up">
-            <i class="bx bx-receipt"></i>
-            <h4>What I believe in</h4>
-            <hr />
-            <div class="alert alert-info">It's simple....Hard working (I mean HARD CODING 😎)</div>
-          </div>
-
-          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-            <i class="bx bx-cube-alt"></i>
-            <h4>Vision</h4>
-            <hr />
-            <div class="alert alert-info">
-              to provide ubiquitous, secure, and seamless access to information resources in all forms through a reliable and robust infrastructure.
+        <div class="row">
+          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+            <!-- <img src="/assets/img/malve.jpg" class="img-fluid about-img" height="" width="" alt="Malvern" /> -->
+            <div class="row">
+              <div>
+                <div class="">
+                  <div class="card-header">
+                    <div class="card-title">
+                      <h3>My Tech Stack</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-text">
+                        <ul>
+                          <li>Python (and Django, Flask, FastAPI)</li>
+                          <li>JavaScript (NodeJS, ReactJS)</li>
+                          <li>PHP (Laravel, WordPress)</li>
+                          <li>Java & Springboot</li>
+                          <li>Dart and Flutter</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <h3>Cloud</h3>
+                      <div class="card-body">
+                        <div class="card-text">
+                          <ul>
+                            <li>AWS</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">Okay then!</h3>
+            <p data-aos="fade-up">
+              My real name is Malvern Bright Gondo, but they call me The LazyCoder(though I'm not Lazy 😂).
+            <div class="icon-box" data-aos="fade-up">
+              <i class="bx bx-receipt"></i>
+              <h4>What I believe in</h4>
+              <hr />
+              <div class="alert alert-info">It's simple....Hard working (I mean HARD CODING 😎)</div>
+            </div>
 
-          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-            <i class="bx bx-cube-alt"></i>
-            <h4>Mission</h4>
-            <hr />
-            <ul>
-              <div class="alert alert-info">to solve real life and business problems.</div>
-              <div class="alert alert-info">and to drink more coffee 😅</div>
-            </ul>
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Vision</h4>
+              <hr />
+              <div class="alert alert-info">
+                to provide ubiquitous, secure, and seamless access to information resources in all forms through a
+                reliable and robust infrastructure.
+              </div>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Mission</h4>
+              <hr />
+              <ul>
+                <div class="alert alert-info">to solve real life and business problems.</div>
+                <div class="alert alert-info">and to drink more coffee 😅</div>
+              </ul>
+            </div>
+
           </div>
-
         </div>
+
       </div>
+    </section>
+    <!-- End About Section -->
+  </main>
+  <!-- End #main -->
+  <script>
+    var date = new Date();
+    document.getElementById("date").innerHTML = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
+  </script>
 
-    </div>
-  </section>
-  <!-- End About Section -->
-</main>
-<!-- End #main -->
-<script>
-  var date = new Date();
-  document.getElementById("date").innerHTML = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
-</script>
-
-<%- include ('./includes/footer'); %>
+  <%- include ('./includes/footer'); %>
