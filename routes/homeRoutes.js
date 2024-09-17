@@ -12,5 +12,5 @@ router.get('/services', homeController.services);
 router.get('/team', homeController.team);
 router.get('/webhook', homeController.webhook_get);
 router.get('/messaging-webhook', homeController.messaging_webhook_get);
-
+router.get('/app-ads.txt', homeController.appAds);
 module.exports = router;
